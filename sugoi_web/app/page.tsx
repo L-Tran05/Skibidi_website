@@ -16,18 +16,14 @@ export default function Page() {
                     
                     <img
                     className= "persona-animation"
-                    src = '/assests/temp.gif'
+                    src = '/assests/Allo_everyone!.gif'
                     alt = "sprite of character"
                     />
 
                 </div>
 
-                <div className = "welcome-text">
-                    Welcome &lt;3
-                </div>
-
-                <Link href="/Homepage">
-                    <button className = "start"> Say Hi!! &lt;3</button>
+                <Link href="/HomePage">
+                    <button className = "start"> Welcome All! &lt;3</button>
                 </Link>
             </main>
         </div>
