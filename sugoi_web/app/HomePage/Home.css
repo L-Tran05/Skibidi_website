@@ -7,19 +7,19 @@
 }
 
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Nunito', sans-serif; 
     background-color: #fff6f8;
     color: #2b2b2b;
 }
 
-/* ===== PAGE WRAPPER ===== */
+/*HomePage full*/
 .HomePage-Full {
     min-height: 100vh;
     display: flex;
     justify-content: center;
 }
 
-/* ===== MAIN CONTENT ===== */
+/*Main body*/
 .Home-Content {
     width: 100%;
     max-width: 1100px;
@@ -30,7 +30,7 @@ body {
     gap: 4rem;
 }
 
-/* ===== HERO IMAGE ===== */
+/* image 1*/
 .hero-image {
     width: 100%;
     display: flex;
@@ -38,53 +38,35 @@ body {
 }
 
 .hero-img {
-    width: 320px;
-    height: 320px;
+    width: 650px;
+    height: 450px;
     background-color: #ffd6df;
     border-radius: 2rem;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* ===== WELCOME TEXT ===== */
+/* header*/
 .Welcome-home {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
 }
 
-/* ===== BUTTONS ===== */
-.button-art,
-.Projects-button {
-    padding: 1rem 2.5rem;
-    border-radius: 999px;
-    background-color: #ffb6c9;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
-}
 
-.button-art:hover,
-.Projects-button:hover {
-    transform: translateY(-4px);
-    background-color: #ffa1b8;
-}
-
-/* ===== SECOND HERO IMAGE ===== */
+/*2nd image*/
 .AnotherHero-Img {
     display: flex;
     justify-content: center;
 }
 
 .who_am_I {
-    width: 280px;
-    height: 280px;
-    background-color: #ffe3ea;
+    width: 650px;
+    height: 500px;
     border-radius: 50%;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== ABOUT ME ===== */
+
 .AboutMe {
     font-size: 2.2rem;
     font-weight: 600;
@@ -97,10 +79,10 @@ body {
     text-align: center;
 }
 
-/* ===== COMMENT BOX ===== */
+/* comment box with arg*/
 .secret-arg-comment-box {
     width: 100%;
-    max-width: 420px;
+    max-width:550px;
     background-color: #ffe8ee;
     padding: 2rem;
     border-radius: 1.5rem;
@@ -143,44 +125,4 @@ body {
 *{
     margin: 0;
     padding: 0;
-}
-
-.HomePage-Full{
-
-}
-
-.Home-Content{
-
-}
-
-.hero-image{
-
-}
-
-.Welcome-home{
-
-}
-
-.button-art{
-
-}
-
-.Projects-button{
-
-}
-
-.AnotherHero-Img{
-
-}
-
-.AboutMe{
-
-}
-
-.aboutMeText{
-
-}
-
-.secret-arg-comment-box{
-    
 }

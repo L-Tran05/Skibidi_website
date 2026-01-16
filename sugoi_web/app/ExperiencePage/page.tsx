@@ -56,10 +56,10 @@ export default function Experience(){
 
                 <div className = "skills-images">
                     <img
-                        className= "persona-animation"
-                        src = ""
+                        className= "skills"
+                        src = '/assests/temp.gif'
                         alt = "sprite of character"
-                        />
+                    />
                 </div>
 
                 <div className = "WorkExp_Text">

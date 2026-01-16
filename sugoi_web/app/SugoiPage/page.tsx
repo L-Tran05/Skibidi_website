@@ -54,7 +54,7 @@ export default function Sugoi(){
                 Giggty of the Day
             </header>
 
-            <div className = "carasol of images">
+            <div className = "carasol">
                 <img className = "image1"
                 src = ""
                 alt = "this will be a panel of different images looping across the screen"

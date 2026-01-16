@@ -1,10 +1,10 @@
 // nav bar of about, experience, art, light and dark mode, music 
-
+'use client';
 import {useState} from 'react';
 import Link from "next/link";
 
-import "./NavBar.css";
-import "./darkMode.css";
+import "./Navbar.css";
+//import darkmode.css;
 
 export default function NavBar() {
     const [darkMode, setDarkMode] = useState(false);
@@ -25,6 +25,7 @@ function toggleDarkMode() {
             </div>
 
             <ul className="nav-links">
+            
                 <li>
                     <Link href="/HomePage">About</Link>
                 </li>
