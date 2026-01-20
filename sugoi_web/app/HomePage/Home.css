@@ -67,17 +67,25 @@ body {
 }
 
 
+/* about me section of text with glitching I*/
 .AboutMe {
-    font-size: 2.2rem;
-    font-weight: 600;
+    display:flex;
+    justify-content: center;
 }
 
+.WhoAmItext{
+    width: 350px;
+    height: 50px;
+}
+
+/*about me where it goes over who i am*/
 .aboutMeText {
     max-width: 700px;
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: center;
 }
+
 
 /* comment box with arg*/
 .secret-arg-comment-box {

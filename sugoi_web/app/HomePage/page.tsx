@@ -10,6 +10,8 @@ export default function Home(){
     const router = useRouter();
     const[input, setInput] = useState("");
 
+
+    // for the like arg element
     function handleSubmit() {
     const trimmed = input.trim();
     if (!trimmed) return;
@@ -63,54 +65,63 @@ export default function Home(){
                         />
                     </div>
 
-                <div className = "Welcome-home">
-                    Welcome to my Website! :3
-                </div>
+            <div className = "Welcome-home">
+                Welcome to my Website! :3
+            </div>
 
 
-                <div className = "AnotherHero-Img">
-                    <img className = "who_am_I"
-                        src = '/assests/temp.gif'
-                        alt = "another image, it is of author"
-                        />
-                </div>
+            <div className = "AnotherHero-Img">
+                <img className = "who_am_I"
+                    src = '/assests/temp.gif'
+                    alt = "another image, it is of author"
+                />
+            </div>
 
-                <div className = "AboutMe">
-                    Who am I?
-                </div>
+            <div className = "AboutMe">
+                <img className = "WhoAmItext"
+                    src = '/assests/fem_fox.png'
+                    alt = "image of text, flickering with a glitch specifically on the I"
+                />
+            </div>
 
-                <section className="aboutMeText">
-                    Hello everyone, my name is Lena, a Vietnamese-American artist!
+            <section className="aboutMeText">
+                Hello everyone, my name is Lena, a Vietnamese-American artist!
+                <br /><br />
 
-                    <br /><br />
+                I am currently a third year at the University of Central Florida studying
+                Information Technology with a minor in Digital Media.
+                I’m involved in many clubs such as Knight Hacks as a design team member, Girls Who Code, and UCF Art Club.
 
-                    I am currently a third year at the University of Central Florida studying
-                    Information Technology with a minor in Digital Media.
+                <br /><br />
 
-                    <br /><br />
+                I love illustration and art of all sorts!
+                When I’m not doing school work, I am learning to animate or selling prints and merch!
+                I wanna get better at UX/UI design and I love learning and experiencing new things!
 
-                    I love illustration and art of all sorts! When I’m not doing school work,
-                    I am learning to animate or selling prints and merch!
+                <br/><br/>
 
-                </section>
+                Thank you for checking out my website! It is inspired by a multitude of all of my favorite fandoms. Such as the WelcomeHomeRestorationProject,
+                Honkai Star Rail, fashion, and my love for cute things!!
 
-                <section className="secret-arg-comment-box">
-                    <p>Leave a message owO?</p>
+            </section>
 
-                    <input
-                        type="text"
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        placeholder="Saying Hello..."
-                    />
+            <section className="secret-arg-comment-box">
+                <p>Leave a message owO?</p>
 
-                    <button onClick={handleSubmit}>
-                        Send
-                    </button>
+                <input
+                    type="text"
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    placeholder="Saying Hello..."
+                />
 
-                </section>
+                <button onClick={handleSubmit}>
+                    Send
+                </button>
 
-                </main>
+            </section>
+
+            </main>
 
             </div>
         </>

@@ -1,5 +1,5 @@
 // super sugoi website based on manga panels
-import './supersugoi.css';
+import './Sugoi.css';
 
 export default function Sugoi(){
     <div className = "Sugoi-FullPage">
@@ -10,7 +10,7 @@ export default function Sugoi(){
 
             <div className = "Vector-Icons">
                 <img className = "Dino-Icon"
-                src = ""
+                src = "pterodactyl.png"
                 alt = "pterodactyl-icon"
                 />
 

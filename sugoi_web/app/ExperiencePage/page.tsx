@@ -1,9 +1,14 @@
 // experience page
 'use client';
 
+import NavBar from '../components/NavBar';
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
 export default function Experience(){
     return(
         <>
+        <NavBar />
             <div className = "Exp-FullPage">
                 <main className = "Exp-Content">
 

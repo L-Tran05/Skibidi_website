@@ -20,6 +20,16 @@ export default function Page() {
                     alt = "sprite of character"
                     />
 
+                    <img className = "deco-bit deco-bit1"
+                    src = '/assests/fem_fox.png'
+                    alt = "asset of female version of my fox vtuber in chibi form"
+                    />
+
+                    <img className = "deco-bit deco-bit2"
+                    src = '/assests/masc_fox.png'
+                    alt = "asset of male version of the male fox vtuber in chibi form"
+                    />
+
                 </div>
 
                 <Link href="/HomePage">
