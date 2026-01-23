@@ -38,8 +38,8 @@ body {
 }
 
 .hero-img {
-    width: 650px;
-    height: 450px;
+    width: 850px;
+    height: 400px;
     background-color: #ffd6df;
     border-radius: 2rem;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
@@ -62,7 +62,6 @@ body {
 .who_am_I {
     width: 650px;
     height: 500px;
-    border-radius: 50%;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -86,12 +85,22 @@ body {
     text-align: center;
 }
 
+.invisible-text{
+    color: #fff6f8;
+    background-color: #fff6f8;
+}
+
+.J{
+    width: 200px;
+    height: 200px;
+}
+
 
 /* comment box with arg*/
 .secret-arg-comment-box {
     width: 100%;
     max-width:550px;
-    background-color: #ffe8ee;
+    background-color: #ffd6df;
     padding: 2rem;
     border-radius: 1.5rem;
     display: flex;

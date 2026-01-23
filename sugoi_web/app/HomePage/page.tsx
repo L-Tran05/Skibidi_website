@@ -91,8 +91,10 @@ export default function Home(){
                 I am currently a third year at the University of Central Florida studying
                 Information Technology with a minor in Digital Media.
                 I’m involved in many clubs such as Knight Hacks as a design team member, Girls Who Code, and UCF Art Club.
-
-                <br /><br />
+                
+                <p className="invisible-text">
+                    There are so many letters here to look out for. I don’t even know where to start
+                </p>
 
                 I love illustration and art of all sorts!
                 When I’m not doing school work, I am learning to animate or selling prints and merch!
@@ -104,6 +106,13 @@ export default function Home(){
                 Honkai Star Rail, fashion, and my love for cute things!!
 
             </section>
+
+            <div className = "Moveable_graphic">
+                <img className = "J"
+                    src = '/assests/pterodactyl.png'
+                    alt = "a small graphic :D"
+                />
+            </div>
 
             <section className="secret-arg-comment-box">
                 <p>Leave a message owO?</p>
