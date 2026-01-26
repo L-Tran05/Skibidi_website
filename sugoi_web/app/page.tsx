@@ -23,14 +23,26 @@ export default function Page() {
                     />
 
                     {/* deco-bit by itself is the size of the chibis and 1 and 2 are the chibis*/}
-                    <img className = "deco-bit deco-bit1"
-                    src = '/assests/fem_fox.png'
+                    <img className = "deco-bit fox_white"
+                    src = '/assests/testwFox.png'
                     alt = "asset of female version of my fox vtuber in chibi form"
                     />
 
-                    <img className = "deco-bit deco-bit2"
-                    src = '/assests/masc_fox.png'
+                    <img className = "deco-bit black_fox"
+                    src = '/assests/maletest.png'
                     alt = "asset of male version of the male fox vtuber in chibi form"
+                    />
+
+                    {/* Border without foxes*/}
+
+                    <img className = "border bord_leftbottom"
+                        src = '/assests/bordR.png'
+                        alt = "border at the bottom left"
+                    />
+
+                    <img className = "border bord_topR"
+                        src = '/assests/testbord.png'
+                        alt = "top right flowery border"
                     />
 
                 </div>
