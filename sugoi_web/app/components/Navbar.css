@@ -35,6 +35,11 @@
     color: #000;
 }
 
+.logoName li a:hover{
+    text-decoration: underline;
+    color: #ff6375;
+}
+
 /* stuff for da left */
 .nav-links {
     display: flex;
@@ -48,12 +53,13 @@
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #000;
+    color: #000000;
 }
 
 /* underlines da words you hover over :3*/
 .nav-links li a:hover {
     text-decoration: underline;
+    color: #ff6375;
 }
 
 /* dark mode botton */

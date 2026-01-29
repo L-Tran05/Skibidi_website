@@ -3,13 +3,24 @@
 
 import './Home.css';
 import NavBar from '../components/NavBar';
+import Foot from '../components/Footer';
 import { useState } from "react";
+import { useEffect } from "react"; //this will be 4 the timer :3
 import { useRouter } from "next/navigation";
 
 export default function Home(){
     const router = useRouter();
     const[input, setInput] = useState("");
+    const [showAltText, setShowAltText] = useState(false);
 
+    useEffect(() => 
+    {
+        const timer = setTimeout(() => {
+            setShowAltText(true);
+        }, 240000);
+
+    return () => clearTimeout(timer);
+    }, []);
 
     // for the like arg element
     function handleSubmit() {
@@ -27,6 +38,7 @@ export default function Home(){
 
     // if they put exactly Jing Yuan
     if (trimmed === correct) {
+
         router.push("/SugoiPage");
     } 
 
@@ -39,6 +51,8 @@ export default function Home(){
         alert("I see what you're doing… you have all the pieces, they’re just not quite aligned yet :3");
     }
 
+    // add custard or citch and then reply with "on hood"
+
     // brainrot
     else if(lowerInput ==="goon"){
         alert("I know what you are...");
@@ -49,13 +63,14 @@ export default function Home(){
     }
 
     else {
-        alert("Thank you for visiting :3 💗");
+        alert("Thank yew for visiting :3 💗");
     }
-}
 
+}
     return(
         <>
         <NavBar />
+        <Foot />
             <div className = "HomePage-Full">
                 <main className = "Home-Content">
                     <div className = "hero-image">
@@ -69,20 +84,18 @@ export default function Home(){
                 Welcome to my Website! :3
             </div>
 
+            <img className = "who_am_I"
+                src = '/assests/temp.gif'
+                alt = "another image, it is of author"
+            />
 
-            <div className = "AnotherHero-Img">
-                <img className = "who_am_I"
-                    src = '/assests/temp.gif'
-                    alt = "another image, it is of author"
-                />
-            </div>
-
-            <div className = "AboutMe">
-                <img className = "WhoAmItext"
-                    src = '/assests/fem_fox.png'
-                    alt = "image of text, flickering with a glitch specifically on the I"
-                />
-            </div>
+            <img className = "WhoAmItext"
+                src={showAltText
+                ? "/assests/WHO.gif"
+                : "/assests/WhoAmI.png"
+                }
+                alt = "image of text, flickering with a glitch specifically on the I"
+            />
 
             <section className="aboutMeText">
                 Hello everyone, my name is Lena, a Vietnamese-American artist!
