@@ -24,6 +24,7 @@ body {
     width: 100%;
     max-width: 1100px;
     padding: 4rem 2rem;
+    padding-top: 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,16 +34,21 @@ body {
 /* image 1*/
 .hero-image {
     width: 100%;
+    max-width: 1024px;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
     display: flex;
     justify-content: center;
 }
 
 .hero-img {
-    width: 850px;
-    height: 400px;
-    background-color: #ffd6df;
-    border-radius: 2rem;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    width: 1520px;
+    height: auto;
+    box-shadow: 0 12px 30px rgba(255, 115, 115, 0.12);
+    padding-top: 0rem;
 }
 
 /* header*/
@@ -85,15 +91,15 @@ body {
 }
 
 .J{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
 }
 
 
 /* comment box with arg*/
 .secret-arg-comment-box {
     width: 100%;
-    max-width:550px;
+    max-width: 550px;
     background-color: #ffd6df;
     padding: 2rem;
     border-radius: 1.5rem;
@@ -101,6 +107,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
 }
 
 .secret-arg-comment-box p {
@@ -110,7 +117,7 @@ body {
 
 .secret-arg-comment-box input {
     padding: 0.75rem 1rem;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     border: none;
     font-size: 1rem;
 }
@@ -133,7 +140,8 @@ body {
     background-color: #ffa1b8;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+.ref{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }

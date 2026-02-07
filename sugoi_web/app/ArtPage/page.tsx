@@ -37,6 +37,7 @@ const artData: Record<ArtBook, string[]> =
 };
 
 // opening book
+
 // closing book is it or nah
 // page count/spot/curr image on book
 export default function Art(){
@@ -62,11 +63,27 @@ export default function Art(){
         <NavBar />
             <div className = "Art-FullPage">
                 <main className = "Art-Content">
-                    {/*Close bookth*/}
-                    {bookOpen && (
-                        <section className = "Closed-Book">
-                            
-                        </section>
+                    {!bookOpen && (<section className="relative flex flex-col items-center justify-center h-[80vh]">
+
+                        {/*Close bookth*/}
+                        <img
+                            src="/assests/images.jpg"
+                            alt="Closed art book"
+                            className="w-[500px] max-w-full drop-shadow-xl"
+                        />
+
+                        {/* Open button */}
+                        <button
+                        onClick={() => setBookOpen(true)}
+                        className="closed book">
+                        Open Story
+                        </button>
+
+                        <img className = "Small"
+                        src = "/assests/Black_Fox.png"
+                        alt = "huh what is that"
+                        />
+                    </section>
                     )}
                 </main>
             </div>

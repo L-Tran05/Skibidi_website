@@ -1,0 +1,27 @@
+.page-turn {
+    animation: pageFlip 0.6s ease;
+    transform-origin: left center;
+}
+
+@keyframes pageFlip {
+    0% {
+        transform: rotateY(-20deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.button{
+
+}
+
+.Small{
+    height: 20px;
+    width: auto;
+}
+
+
